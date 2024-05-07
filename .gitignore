@@ -40,3 +40,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows
+
+# Cache file causing bugs
+CMakeCache.txt
