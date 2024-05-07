@@ -43,3 +43,6 @@ $RECYCLE.BIN/
 
 # Cache file causing bugs
 CMakeCache.txt
+
+# Build folder
+/build
