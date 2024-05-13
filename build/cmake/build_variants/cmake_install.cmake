@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/pico-examples/cmake/build_variants
+# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/cmake/build_variants
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_extras")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
