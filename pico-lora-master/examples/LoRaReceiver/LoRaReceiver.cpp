@@ -26,13 +26,10 @@ int main() {
          // read packet
          while (LoRa.available()) {
             char i = LoRa.read();
-            printf("%c",i);
+            printf("%c", i);
          }
 
          // print RSSI of packet
-         printf("' with RSSI \n");
-
-         //printf((char*)LoRa.packetRssi(),"\n");
       }
   }
 
