@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/cmake/build_variants
+# Install script for directory: C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/cmake/build_variants
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

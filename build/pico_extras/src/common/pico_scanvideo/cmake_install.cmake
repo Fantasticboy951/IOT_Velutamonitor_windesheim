@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/pico-extras/src/common/pico_scanvideo
+# Install script for directory: C:/Users/matz/Documents/Pico-v1.5.1/pico-extras/src/common/pico_scanvideo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

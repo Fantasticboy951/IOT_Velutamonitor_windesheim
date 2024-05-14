@@ -15,8 +15,7 @@ int main() {
    }
 
    printf("LoRa Started\n");
-   
-   int counter = 0;
+
    
    while (1) {
       int packetSize = LoRa.parsePacket();
@@ -26,12 +25,14 @@ int main() {
 
          // read packet
          while (LoRa.available()) {
-            printf((char*)LoRa.read());
+            char i = LoRa.read();
+            printf("%c",i);
          }
 
          // print RSSI of packet
          printf("' with RSSI \n");
-         printf((char*)LoRa.packetRssi(),"\n");
+
+         //printf((char*)LoRa.packetRssi(),"\n");
       }
   }
 

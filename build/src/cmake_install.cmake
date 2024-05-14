@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/src
+=======
+# Install script for directory: C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/src
+>>>>>>> Stashed changes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +43,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< Updated upstream
   include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/src/pico-sdk/cmake_install.cmake")
+=======
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/src/pico-sdk/cmake_install.cmake")
+>>>>>>> Stashed changes
 
 endif()
 

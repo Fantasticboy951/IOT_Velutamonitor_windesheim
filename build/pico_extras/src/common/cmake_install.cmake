@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/pico-extras/src/common
+# Install script for directory: C:/Users/matz/Documents/Pico-v1.5.1/pico-extras/src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_audio/cmake_install.cmake")
-  include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_scanvideo/cmake_install.cmake")
-  include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_sd_card/cmake_install.cmake")
-  include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_util_buffer/cmake_install.cmake")
-  include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/platypus/cmake_install.cmake")
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_audio/cmake_install.cmake")
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_scanvideo/cmake_install.cmake")
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_sd_card/cmake_install.cmake")
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/pico_util_buffer/cmake_install.cmake")
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/platypus/cmake_install.cmake")
 
 endif()
 

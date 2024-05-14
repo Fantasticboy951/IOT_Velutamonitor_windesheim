@@ -21,7 +21,7 @@ int main() {
 		printf("%d \n",counter);
 		// send packet
 		LoRa.beginPacket();
-		LoRa.print("How many moons fit inside ur-anus? ");
+		LoRa.print("how many moons can fit in uranus?");
 		LoRa.print(counter);
 		LoRa.endPacket();
 
