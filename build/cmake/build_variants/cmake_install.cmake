@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/cmake/build_variants
+# Install script for directory: C:/Users/test gebruiker/Documents/GitHub/IOT_Velutamonitor_windesheim/cmake/build_variants
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_extras")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

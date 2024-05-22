@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/matz/Documents/Pico-v1.5.1/pico-extras/src
+# Install script for directory: C:/Users/test gebruiker/Documents/Pico-v1.5.1/pico-extras/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_extras")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/cmake_install.cmake")
-  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/pico_extras/src/rp2_common/cmake_install.cmake")
+  include("C:/Users/test gebruiker/Documents/GitHub/IOT_Velutamonitor_windesheim/build/pico_extras/src/common/cmake_install.cmake")
+  include("C:/Users/test gebruiker/Documents/GitHub/IOT_Velutamonitor_windesheim/build/pico_extras/src/rp2_common/cmake_install.cmake")
 
 endif()
 

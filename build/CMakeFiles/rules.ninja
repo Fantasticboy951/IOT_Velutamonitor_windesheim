@@ -5678,7 +5678,7 @@ rule CXX_EXECUTABLE_LINKER__LoRaSimpleNode_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\cmake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\matz\Projects\Veluta Monitor\IOT_Velutamonitor_windesheim" -B"C:\Users\matz\Projects\Veluta Monitor\IOT_Velutamonitor_windesheim\build"
+  command = "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\cmake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\test gebruiker\Documents\GitHub\IOT_Velutamonitor_windesheim" -B"C:\Users\test gebruiker\Documents\GitHub\IOT_Velutamonitor_windesheim\build"
   description = Re-running CMake...
   generator = 1
 
