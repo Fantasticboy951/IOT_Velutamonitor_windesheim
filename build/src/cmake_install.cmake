@@ -1,8 +1,12 @@
-# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/pico-examples/src
+<<<<<<< Updated upstream
+# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/src
+=======
+# Install script for directory: C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/src
+>>>>>>> Stashed changes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_extras")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,5 +39,15 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+<<<<<<< Updated upstream
+  include("C:/Users/jensh/Documents/Pico-v1.5.1/IOT_Velutamonitor_windesheim/build/src/pico-sdk/cmake_install.cmake")
+=======
+  include("C:/Users/matz/Projects/Veluta Monitor/IOT_Velutamonitor_windesheim/build/src/pico-sdk/cmake_install.cmake")
+>>>>>>> Stashed changes
+
 endif()
 

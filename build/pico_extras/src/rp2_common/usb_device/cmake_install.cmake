@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/jensh/Documents/Pico-v1.5.1/pico-extras/src/rp2_common/usb_device
+# Install script for directory: C:/Users/matz/Documents/Pico-v1.5.1/pico-extras/src/rp2_common/usb_device
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_extras")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
