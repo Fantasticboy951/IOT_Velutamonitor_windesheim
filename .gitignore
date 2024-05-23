@@ -2,13 +2,8 @@
 .vscode
 _deps
 cmake-*
-**/build
 build/
-!/build
 .DS_Store
 *.pdf
 /i2c
-/build
 *.ninja
-build/cmake/build_variants/build_variant1.bin
-build/build.ninja
